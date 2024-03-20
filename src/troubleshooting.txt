@@ -1,0 +1,18 @@
+Error 1: The statement for Component is wrong, the C should not be lowercase and should be changed to an uppercase C
+Fix:{ component } to { Component }
+
+
+Error 2: class App extends Component { was not defined due to the C in error 1 being lowercase
+Fix: Change component to Component, which allowed it to be defined.
+
+  
+Error 3: handleButtonClick() { ... } The event handler function is not defined
+Fix: Define the handleButtonClick function by binding '.this' to the function
+
+
+Error 4: state = { ... } can't be used I believe because of the 'class' property
+Fix: Change the state function to constructor
+
+
+Error 5: Closing tag for <h1> is in uppercase
+Fix: Change </H1> to </h1>.
